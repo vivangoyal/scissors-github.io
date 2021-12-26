@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+body{
+    background-color: #191919;
+}
+.header{
+    background:linear-gradient(rgba(0, 0, 0, 0.844),rgba(0, 0, 0, 0.864)), url(img/background.png);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+span{
+    color: #f9084d;
+    
+}
+.logo h1{
+    float: left;
+    color: rgb(255, 255, 255);
+    margin: 60px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.nav-bar{
+    float: right;
+    margin: 80px;
+    width: auto;
+}
+.nav-bar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 30px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 13px;
+}
+.nav-bar ul li a::after{
+    content: "";    
+    width: 0;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background-color: #f9084d;
+    transition: 0.6s;
+}
+.nav-bar ul li a:hover::after{
+    width: 100%;
+}
+ form{
+    width: 200px;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+ form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9084d;
+    outline: none;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+ form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9084d;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    justify-content: center;
+    right: -72%;
+}
+::placeholder{
+    color: black;
+    font-weight: bold;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 63%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+.title h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.title p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+
+/*---------services section start--------*/
+
+
+
+.services{
+    padding-top: 7%;
+}
+.service-title{
+    text-align: center;
+    padding-bottom: 20px ;
+    color: white;
+}
+.service-title h1{
+    font-size: 60px;
+}
+.service-title p{
+    font-size: 13px;
+}
+.service-row{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+.service-col{
+    padding: 19px;
+    margin: 20px 30px;
+    background-color: wheat;
+    border-radius: 20px;
+    float: center;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+.service-col:hover{
+    transform: scale(1.1);
+}
+
+/*-----------blogs-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+.image img{
+    width: 10px;
+}
